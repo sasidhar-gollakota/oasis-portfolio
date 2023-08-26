@@ -1,0 +1,413 @@
+*{
+    padding: 0%;
+    margin:0%;
+}
+
+body{
+    background-image: url('portfoliobg.jpg');
+}
+
+.header-main{
+
+    display: flex;
+    flex-direction: row;
+    width: 99.9%;
+    height: 100px;
+}
+.header-main .name-logo{
+    padding: 20px;
+    margin-left: 90px;
+    width: 190px;
+}
+.name-logo h2{
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+}
+.header-options{
+    width: 750px;
+    margin-left: 900px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header-options a{
+    color: whitesmoke;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+.header-bottom{
+
+    width: 99.9%;
+    height: 70vh;
+    background-color: rgb(63, 63, 90);
+    display: flex;
+    flex-direction: row;
+
+}
+.header-bottom .left-side-div{
+
+    width: 50%;
+    height: 80vh;
+}
+.left-side-div h2{
+    padding: 100px;
+    font-size: 60px;
+    color: whitesmoke;
+}
+.left-side-div span{
+    margin-left: 20px;
+    color: bisque;
+}
+
+.left-side-div h3{
+    padding-left: 60px;
+    margin-top: -80px;
+    font-size: 55px;
+    margin-left: 40px;
+    color: whitesmoke;
+}
+.header-bottom .image-div{
+    display: flex;
+    width: 40%;
+    height: 60vh;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.image{
+    width: 80%;
+    height: 115%;
+}
+
+.image img{
+    height: 100%;
+    margin-left: 40px;
+    border-radius: 85%;
+    width: 85%;
+
+}
+
+.header-bottom1{
+    display: flex;
+    width: 99.9%;
+    height: 80vh;
+    background-color: rgb(18, 17, 17);
+}
+.header-bottom1 .right-side-div{
+
+    width: 60%;
+    margin-left:810px;
+    height: 80vh;
+}
+.right-side-div h2{
+    font-weight: bold;
+    color: whitesmoke;
+    padding: 40px;
+    font-size: 50px;
+}
+
+.right-side-div p{
+    margin-left: 45px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: cadetblue;
+}
+
+.header-bottom2{
+    width: 99.9%;
+    height: 90vh;
+}
+
+.header-bottom2 .header-div{
+    height: 160px;
+}
+
+.header-div .tittle-skills{
+    width: 90px;
+    padding: 60px;
+    margin-left: 840px;
+}
+.tittle-skills h2{
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+    font-size: 35px;
+    margin-left: 40px;
+}
+.skill-options{
+    background-color:blanchedalmond;
+    width: 60%;
+    margin-left: 400px;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+}
+.skill-option-part1{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+}
+
+.skill-option-part1 i{
+    font-size: 150px;
+    margin-left: 10px;
+    padding: 40px;
+}
+.skill-option-part1 i:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.skill-option-part1-names{
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+    font-size: 30px;
+    margin-left: 342px;
+}
+.skill-option-part1-names:hover{
+    cursor: pointer;
+}
+
+.skill-option-part2{
+
+    width: 99.9%;
+    height: 200px;
+    margin-top: 150px;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+}
+
+.skill-option-part2 i{
+    font-size: 150px;
+    margin-left: 10px;
+    padding: 40px;
+}
+.skill-option-part2 i:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.skill-option-part2-names{
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+    font-size: 30px;
+    margin-left: 342px;
+}
+.header-bottom3{
+    height: 80vh;
+}
+
+.header-bottom3 .project-head{
+    width: 40%;
+    padding: 50px;
+    margin-left: 260px;
+}
+.project-head h1{
+    font-size: 50px;
+    color: whitesmoke;
+}
+.project-options{
+    width: 80%;
+    margin-left: 260px;
+    height: 55vh;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+
+}
+
+.project-options .project-option1{
+    width: 25%;
+    position: absolute;
+}
+.project-options .project-option2{
+    width: 27%;
+    margin-left: 560px;
+    height: 53vh;
+    position: absolute;
+    border-radius: 20px;
+    
+}
+.project-options .project-option3{
+    width: 27%;
+    margin-left: 1150px;
+    height: 53vh;
+    position: absolute;
+
+}
+.project-options .project-option1 img{
+    width: 100%;
+    height: 100%;
+}
+.project-options .project-option2 img{
+    width: 100%;
+    height: 100%;
+}
+.project-options .project-option3 img{
+    width: 100%;
+    height: 100%;
+}
+
+.project-option1 .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity 0.8s ease-in-out;
+    background-color: black;
+    cursor: pointer;
+}
+.project-option1 .content{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+
+}
+
+.project-option1:hover .overlay{
+    opacity: 0.8;
+}
+.project-option2 .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+    background-color: rgb(24, 19, 19);
+    cursor: pointer;
+}
+.project-option2 .content{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+
+}
+
+.project-option2:hover .overlay{
+    opacity: 0.8;
+}
+.project-option3 .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+    background-color: rgb(24, 19, 19);
+    cursor: pointer;
+}
+.project-option3 .content{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+
+}
+
+.project-option3:hover .overlay{
+    opacity: 0.8;
+}
+.header-bottom4{
+    height: 80vh;
+}
+.header-bottom4 .contact-div-left{
+    width: 40%;
+    height:67vh ;
+    padding: 60px;
+    background-color: black;
+}
+.contact-div-left h2{
+    font-size: 90px;
+    color: bisque;
+}
+
+.contact-div-left i{
+    margin-left: 10px;
+    margin-top: 90px;
+    font-size: 45px;
+    background-color:whitesmoke;
+}
+.contact-div-left h3{
+    font-size: 22px;
+    margin-left: 15px;
+    margin-top: 30px;
+    color: whitesmoke;
+}
+
+.contact-div-left .social-media-options{
+    width: 280px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 250px;
+    border-radius: 20px;
+    margin-top: -30px;
+}
+.contact-div-left input{
+    width: 190px;
+    height: 70px;
+    margin-top: 50px;
+    margin-left: 290px;
+    background-color: brown;
+    color: azure;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.social-media-options i:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.contact-divs{
+    background-color:black;
+    display: flex;
+    flex-direction: row;
+}
+.contact-div-right{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    width: 52%;
+}
+
+.contact-div-right input{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    line-height: 90px;
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+
